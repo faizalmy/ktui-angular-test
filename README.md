@@ -26,6 +26,9 @@ You need to create a local `npm link` for the KTUI library to make it available 
 # 1. Navigate to the KTUI library's source directory
 cd path/to/ktui/ktui
 
+# 2. Checkout to branch
+git branch compatibility-fixes
+
 # 2. Install its dependencies
 npm install
 
