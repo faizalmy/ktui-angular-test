@@ -1,0 +1,26 @@
+<div class="p-8 space-y-4">
+  <h1 class="text-2xl font-bold mb-4">KTUI Tooltip Test</h1>
+
+  <!-- Basic tooltip -->
+  <div data-kt-tooltip="true" title="This is a basic tooltip" class="p-4 bg-blue-100 rounded">
+    Hover over me for a basic tooltip
+  </div>
+
+  <!-- Tooltip with custom content -->
+  <div data-kt-tooltip="true" class="p-4 bg-green-100 rounded">
+    Hover over me for custom content
+    <div data-kt-tooltip-content class="hidden">
+      <div class="bg-black text-white p-2 rounded">
+        Custom tooltip content with HTML
+      </div>
+    </div>
+  </div>
+
+  <!-- Click trigger tooltip -->
+  <div data-kt-tooltip="true"
+       data-kt-tooltip-trigger="click"
+       title="Click tooltip"
+       class="p-4 bg-yellow-100 rounded cursor-pointer">
+    Click me for tooltip
+  </div>
+</div>
